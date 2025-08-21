@@ -1,0 +1,48 @@
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+ background-image: url("new-back4.jpg");
+ background-position:center;
+ background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed ;
+}
+/* #navBar{
+  box-shadow: 3px 3px 5px 2px rgb(121, 121, 121);
+} */
+.nav-hover {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-hover:hover {
+  color: #ff6347;
+}
+
+.nav-hover::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #ff6347;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-hover:hover::after {
+  width: 100%;
+}
+
+.cart-badge {
+  background-color: #ff6347;
+  color: white;
+  font-size: 0.8rem;
+  padding: 2px 6px;
+  border-radius: 50%;
+  margin-left: 4px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.cart-badge:hover {
+  transform: scale(1.1);
+}
