@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import { NavLink, Link } from "react-router-dom";
-// import ''; // We'll add styling here
+
 
 const NavBar = () => {
   const { cart } = useSelector((state) => state.allCart);
@@ -15,11 +15,13 @@ const NavBar = () => {
     <div id="navBar" className="sticky-top shadow-sm bg-white">
       <nav className="navbar navbar-expand-lg navbar-light container">
         <Link className="navbar-brand fw-bold d-flex align-items-center" to="/">
-          <i
+          {/* <i
             className="bi bi-amazon me-2"
             style={{ fontSize: "1.8rem", color: "#ff9900" }}
-          ></i>
-          Amazone
+          ></i> */}
+          <img
+          style={{width:"95px"}} src="logo_full.png"/>
+          {/* Cartify */}
         </Link>
 
         <button
@@ -28,7 +30,7 @@ const NavBar = () => {
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
         >
-          <span className="navbar-toggler-icon" />
+          <span className="navbar-toggler-icon"  />
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">

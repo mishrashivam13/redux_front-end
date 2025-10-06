@@ -57,51 +57,51 @@ export default[
     },
     {
         id : 9,
-        name : "Apple",
-        price : 47800,
+        name : "Apple 15",
+        price : 67800,
         img : "apple.jpg",
         quantity : "1"
     },
     {
         id : 10,
         name : "Nothing",
-        price : 47800,
+        price : 35800,
         img : "nothing.jpg",
         quantity : "1"
     },
     {
         id : 11,
-        name : "Asus",
+        name : "Oppo Reno 10 Pro",
         price : 47800,
-        img : "asus.png",
+        img : "oppo.png",
         quantity : "1"
     },
     {
         id : 12,
-        name : "Asus",
-        price : 47800,
-        img : "asus.png",
+        name : "Lenovo",
+        price : 57800,
+        img : "lenovo2.png",
         quantity : "1"
     },
     {
         id : 13,
-        name : "Asus",
-        price : 47800,
-        img : "asus.png",
+        name : "Lenovo Loq",
+        price : 87800,
+        img : "loq.jpg",
         quantity : "1"
     },
     {
         id : 14,
-        name : "Asus",
+        name : "realme Washing Machine",
         price : 47800,
-        img : "asus.png",
+        img : "wash.jpg",
         quantity : "1"
     },
     {
         id : 15,
-        name : "Asus",
-        price : 47800,
-        img : "asus.png",
+        name : "LG Oven",
+        price : 17800,
+        img : "lg.jpg",
         quantity : "1"
     },
     {
